@@ -55,11 +55,11 @@ export const Projects = () => {
     <section className='py-12 md:py-20'>
       <h2 className='container text-2xl font-bold mb-6'>Projects</h2>
 
-      <div>
+      <div className='w-full overflow-hidden'>
         <Slider {...settings}>
           {items.map((item, index) => (
             <div key={index} className='p-2'>
-              <div className='bg-[#e8e8e8] rounded-lg p-4 md:p-10'>
+              <div className='bg-[#f6f6f6] rounded-lg p-4 md:p-10'>
                 <div className='w-fit mx-auto rounded-lg overflow-hidden'>
                   <Image src={item.image} alt={item.title} width={500} height={500} />
                 </div>
