@@ -24,12 +24,32 @@ const items = [
     description: 'Product design',
     image: bgImage.src,
   },
+  {
+    title: 'Convo',
+    description: 'Product design',
+    image: bgImage.src,
+  },
+  {
+    title: 'Branch',
+    description: 'Product design',
+    image: bgImage.src,
+  },
+  {
+    title: 'Astodon',
+    description: 'Product design',
+    image: bgImage.src,
+  },
+  {
+    title: 'Imgur',
+    description: 'Product design',
+    image: bgImage.src,
+  },
 ];
 
 const settings = {
   infinite: true,
   speed: 500,
-  slidesToShow: 3,
+  slidesToShow: 4,
   slidesToScroll: 1,
   centerMode: true,
   responsive: [
@@ -50,10 +70,10 @@ const settings = {
   ],
 };
 
-export const Projects = () => {
+export const Writing = () => {
   return (
     <section className='py-12 md:py-20'>
-      <h2 className='container text-2xl font-bold mb-6'>Projects</h2>
+      <h2 className='container text-2xl font-bold mb-6'>Writing</h2>
 
       <div>
         <Slider {...settings}>
