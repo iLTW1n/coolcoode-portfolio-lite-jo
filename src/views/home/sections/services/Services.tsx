@@ -1,5 +1,3 @@
-import Link from 'next/link';
-
 const items = [
   {
     title: 'Digital product design',
@@ -24,7 +22,7 @@ const items = [
 export const Services = () => {
   return (
     <section className='container py-12 grid md:py-20 md:grid-cols-2'>
-      <h2 className='text-2xl font-bold mb-6'>Projects</h2>
+      <h2 className='text-2xl font-bold mb-6'>Services</h2>
       <div className='grid gap-10 md:gap-16'>
         {items.map((item) => (
           <div key={item.title}>
